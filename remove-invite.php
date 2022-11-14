@@ -8,7 +8,9 @@
  * Text Domain: remove-invite
  */
 
-
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 
 function remove_send_invites_on_groups() {
   global $bp;
